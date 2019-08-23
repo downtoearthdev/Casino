@@ -1,0 +1,6 @@
+blackjack:
+  card-back-color: "RED"
+  payout-multiplier: 1.5
+Version: 2
+Command_Aliases:
+  - "casino"

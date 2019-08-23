@@ -1,0 +1,31 @@
+name: WolfplzzCasino
+main: com.scorchedcode.wolfplzz.Casino.CasinoEco
+version: 1.0
+api-version: 1.13
+author: DownToEarthDev
+commands:
+  casino:
+    usage: "/casino <play|stats>"
+    description: "Play fabulous games, win fabulous prizes!"
+    permission: casino.*
+  casino play:
+    usage: "/casino play"
+    description: "Choose a game to play and start!"
+    permission: casino.play
+  casino stats:
+    usage: "/casino stats"
+    description: "View your wins/losses/revenue from games!"
+    permission: casino.stats
+permissions:
+  casino.*:
+    description: Grants permission to use /casino
+    default: op
+  casino.ageconfirmed:
+    description: Grants age prompt bypass
+    default: op
+  casino.play:
+    description: Grants permission to use /casino play
+    default: op
+  casino.stats:
+    description: Grants permission to use /casino stats
+    default: op
